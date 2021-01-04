@@ -1,0 +1,327 @@
+/*big tablets to 1200px (width smaller that the 1140px row*/
+@media only screen and (max-width: 1200px) {
+  .banner-box img {
+    width: 100%;
+  }
+  .innovations-box h1 {
+    width: 22%;
+  }
+  .big-box h1 {
+    width: 22%;
+  }
+  .financial-box {
+    width: 80%;
+  }
+  .financial-box h1 {
+    width: 65%;
+  }
+  .culture-box h1 {
+    width: 21%;
+  }
+  .HFCI-box {
+    width: 80%;
+  }
+  .HFCI-box h1 {
+    width: 54%;
+  }
+  .casual-box {
+    width: 90%;
+  }
+  .collaboration-box {
+    width: 90%;
+  }
+  .value-box h1 {
+    width: 22%;
+  }
+}
+/*small tablets to big tablets: from 768px  to 1023px */
+@media only screen and (max-width: 1023px) {
+  .banner-box img {
+    width: 100%;
+  }
+  .image-box {
+    display: block;
+  }
+  .innovations-box h1 {
+    width: 30%;
+  }
+  .big-box h1 {
+    width: 29%;
+  }
+  .financial-box {
+    width: 90%;
+  }
+  .financial-box h1 {
+    width: 77%;
+  }
+  .culture-box h1 {
+    width: 28%;
+  }
+  .HFCI-box {
+    width: 90%;
+  }
+  .HFCI-box h1 {
+    width: 64%;
+  }
+  .casual-left {
+    width: 50%;
+  }
+  .right-box {
+    width: 50%;
+  }
+  .casual-box {
+    width: 90%;
+  }
+  .collaboration-box {
+    width: 90%;
+  }
+  .value-box {
+    width: 90%;
+  }
+  .value-box h1 {
+    width: 29%;
+  }
+  .ethical-box {
+    width: 90%;
+  }
+  .boxes-3 h1 {
+    width: 19%;
+  }
+  .team-box {
+    width: 90%;
+  }
+  .team-box-1 {
+    width: 90%;
+  }
+  .join-box h1 {
+    width: 14%;
+  }
+  .join-us-box {
+    width: 90%;
+  }
+  .touch-box {
+    width: 65%;
+  }
+  .bangalore-box {
+    width: 40%;
+  }
+  .delhi-box {
+    width: 30%;
+  }
+}
+
+/*small phones to small tablets: from 481px  to 767px */
+@media only screen and (max-width: 767px) {
+  .boxes {
+    display: block;
+  }
+  .banner-box img {
+    width: 100%;
+  }
+  .innovations-box h1 {
+    width: 50%;
+  }
+  .box-left {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+  .big-box h1 {
+    width: 45%;
+    font-size: 30px;
+  }
+  .financial-box {
+    width: 95%;
+  }
+  .financial-box h1 {
+    font-size: 30px;
+    width: 95%;
+  }
+  .image-box {
+    width: 100%;
+  }
+  .image-box-right img {
+    width: 100%;
+  }
+  .casual-box {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .collaboration-box {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .casual-box img {
+    width: 80%;
+  }
+  .collaboration-box img {
+    width: 80%;
+  }
+  .casual-left {
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  .casual-left p {
+    text-align: justify;
+  }
+  .right-box p {
+    text-align: justify;
+  }
+  .right-box {
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  .culture-box h1 {
+    width: 45%;
+    font-size: 30px;
+  }
+  .HFCI-box {
+    width: 95%;
+  }
+  .HFCI-box h1 {
+    width: 95%;
+    font-size: 30px;
+  }
+  .ethical-box {
+    display: block;
+  }
+  .boxes-2 {
+    width: 50%;
+    margin: 10px auto;
+    background-color: #dfecf5;
+  }
+  .boxes-2 p {
+    text-align: justify;
+  }
+  .boxes-3 h1 {
+    width: 29%;
+  }
+  .team-box {
+    width: 95%;
+    display: block;
+    background-color: #c9d6dc;
+  }
+  .team-box-1 {
+    width: 95%;
+    display: block;
+    background-color: #c9d6dc;
+  }
+  .team-box-right p {
+    text-align: justify;
+  }
+  .team-box-left p {
+    text-align: justify;
+  }
+  .value-box {
+    width: 95%;
+  }
+  .join-box h1 {
+    width: 30%;
+  }
+  .join-us-box {
+    width: 100%;
+    background-color: #dfecf5;
+    display: block;
+  }
+  .join-us-box p {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+  }
+  .touch-box {
+    width: 100%;
+    text-align: center;
+  }
+  .touch-box h1 {
+    font-size: 40px;
+  }
+  .touch-box p {
+    width: 70%;
+    margin: 20px auto;
+  }
+}
+
+/*small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  .menu-box li {
+    display: block;
+  }
+  .banner-box img {
+    width: 100%;
+  }
+  .innovations-box h1 {
+    width: 100%;
+    font-size: 22px;
+  }
+  .small-box img {
+    width: 100%;
+  }
+  .big-box h1 {
+    width: 100%;
+    font-size: 25px;
+  }
+  .financial-box {
+    width: 100%;
+  }
+  .financial-box h1 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .image-box-left img {
+    width: 100%;
+  }
+  .image-box-right img {
+    width: 100%;
+  }
+  .HFCI-box {
+    width: 100%;
+  }
+  .HFCI-box h1 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .value-box {
+    width: 100%;
+  }
+  .join-us-box {
+    width: 100%;
+  }
+  .join-us-box img {
+    width: 80%;
+  }
+  .culture-box h1 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .boxes-3 h1 {
+    width: 100%;
+  }
+  .join-box h1 {
+    width: 100%;
+  }
+  .address-box {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+  }
+  .bangalore-box {
+    width: 100%;
+  }
+  .delhi-box {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .team-box img {
+    width: 80%;
+  }
+  .team-box-1 img {
+    width: 80%;
+  }
+  .join-box h1 {
+    width: 100%;
+  }
+}

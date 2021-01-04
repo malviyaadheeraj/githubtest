@@ -1,0 +1,314 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.logo-box img {
+  transform: scale(0.8);
+  transform: transition 0.5s;
+}
+.logo-box img:hover {
+  transform: scale(1);
+  transition: 0.8s;
+}
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu-box li {
+  list-style: none;
+  display: inline-block;
+}
+.menu-box ul li a {
+  font-size: 25px;
+  margin: 6px;
+  color: purple;
+}
+.menu-box ul li a:hover {
+  color: red;
+}
+.banner-box img {
+  width: 100%;
+}
+.innovations-box h1 {
+  width: 18%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0px;
+}
+.innovations-box h1:hover {
+  transform: rotate(360deg);
+  transition: 1.5s;
+}
+.box-left {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-box img {
+  transform: scale(1);
+  transform: transition 0.8s;
+}
+.small-box img:hover {
+  transform: scale(0.9);
+  transition: 0.8s;
+}
+.big-box {
+  background-color: #c9d6dc;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 40px;
+}
+.big-box h1 {
+  width: 17%;
+  margin: auto;
+  color: #2a84c2;
+  font-size: 40px;
+  padding: 10px 0px;
+}
+.big-box h1:hover {
+  transform: rotate(360deg);
+  transition: 1.5s;
+}
+.financial-box {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #0099ff;
+}
+.financial-box h1 {
+  width: 50%;
+  color: white;
+  transform: scale(1);
+  transform: transition 0.8s;
+}
+.financial-box h1:hover {
+  transform: scale(0.7);
+  transition: 0.8s;
+}
+.image-box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.culture-box {
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #dfecf5;
+}
+.culture-box h1 {
+  width: 16%;
+  margin: auto;
+  color: black;
+  font-size: 40px;
+  padding: 10px 0px;
+}
+.culture-box h1:hover {
+  transform: rotate(360deg);
+  transition: 1.5s;
+}
+.HFCI-box {
+  width: 80%;
+  margin: auto;
+  background-color: #0099ff;
+}
+.HFCI-box h1 {
+  width: 50%;
+  color: white;
+  transform: scale(1);
+  transform: transition 0.8s;
+}
+.HFCI-box h1:hover {
+  transform: scale(0.7);
+  transition: 0.8s;
+}
+.casual-box {
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.casual-box img {
+  transform: scale(0.8);
+  transform: transition 0.5s;
+}
+.casual-box img:hover {
+  transform: scale(1);
+  transition: 0.8s;
+}
+.casual-left {
+  width: 30%;
+}
+.right-box {
+  width: 30%;
+}
+.collaboration-box {
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.collaboration-box img {
+  transform: scale(0.8);
+  transform: transition 0.5s;
+}
+.collaboration-box img:hover {
+  transform: scale(1);
+  transition: 0.8s;
+}
+
+.ethical-box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+.value-box {
+  width: 85%;
+  margin: auto;
+  background-color: #0099ff;
+}
+.value-box h1 {
+  color: white;
+  width: 17%;
+  margin: auto;
+}
+.boxes-2 {
+  width: 23%;
+  background-color: white;
+}
+.boxes-2 h4 {
+  margin: 20px 0px;
+}
+.boxes-2 img {
+  width: 100%;
+  transform: scale(0.8);
+  transform: transition 0.5s;
+}
+.boxes-2 img:hover {
+  transform: scale(1);
+  transition: 0.8s;
+}
+.boxes-3 {
+  background-color: #c9d6dc;
+  text-align: center;
+  padding: 30px 0px;
+}
+.team-box {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.team-box-1 {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.team-box img {
+  transform: scale(0.8);
+  transform: transition 0.8s;
+}
+.team-box-1 img {
+  transform: scale(0.8);
+  transform: transition 0.8s;
+}
+.team-box img:hover {
+  transform: scale(1);
+  transition: 0.8s;
+}
+.team-box-1 img:hover {
+  transform: scale(1);
+  transition: 0.8s;
+}
+.boxes-3 h1 {
+  width: 17%;
+  margin: auto;
+}
+.boxes-3 h1:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+.join-box {
+  text-align: center;
+  background-color: #dfecf5;
+  padding: 40px 0px;
+}
+.join-box h1 {
+  width: 10%;
+  margin: auto;
+  padding: 10px 0px;
+}
+.join-box h1:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+.join-us-box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.join-us-box img {
+  transform: scale(0.8);
+  transition: 0.8s;
+}
+.join-us-box img:hover {
+  transform: scale(1);
+  transition: 0.8s;
+}
+.contact-box {
+  background-color: #c9d6dc;
+  padding: 35px 0px;
+}
+.touch-box {
+  width: 40%;
+  text-align: center;
+}
+.touch-box h1 {
+  font-size: 45px;
+  font-variant: small-caps;
+  color: #0099ff;
+  transform: scale(1.1);
+  transform: transition 0.8s;
+}
+.touch-box h1:hover {
+  transform: scale(0.8);
+  transition: 0.8s;
+}
+.address-box {
+  display: flex;
+  margin: 30px 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bangalore-box {
+  width: 30%;
+}
+.delhi-box {
+  width: 20%;
+}
+.h3-box {
+  padding: 20px 0px;
+  text-align: center;
+  background-color: #dfecf5;
+}
